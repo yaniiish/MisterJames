@@ -1,10 +1,10 @@
 import React from 'react'
-import BtnResa1 from '../BtnResa1'
+import BtnResa1 from '../../BtnResa1'
 
 
 function Section1() {
   return (
-    <div className='h-[70vh] flex flex-col mt-16 lg:mt-0  mx-auto w-[70%] gap-6 lg:flex-row-reverse lg:justify-center lg:items-center'>
+    <div className='lg:h-[70vh] flex flex-col mt-16 lg:mt-0  mx-auto w-[70%] gap-6 lg:flex-row-reverse lg:justify-center lg:items-center'>
         <div className='flex flex-col gap-6 text-center lg:w-[600px] max-w-none'>
             <h2 className='uppercase'>Mister James, coiffeur barbier grentheville près de caen</h2>
             <span className='opacity-[80%] leading-6'>Bienvenue chez "Mister James", votre salon de coiffure barbier situé à Grentheville, près de Caen. Nous sommes fiers de vous offrir un service professionnel et personnalisé pour tous vos besoins de coiffure et de rasage. <br/>

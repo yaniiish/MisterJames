@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa"
 function BannerHome() {
   return (
 
-    <div className='h-screen relative z-0 border-b-2 border-white'>
+    <div className='lg:h-screen relative z-0'>
         <div className='flex justify-end pt-28 pr-[20%]'>
            <a href='/'><FaInstagram size={40} className='absolute'/></a>
         </div>
