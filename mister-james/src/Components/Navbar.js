@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-       <nav className='h-24 w-[80%] fixed left-2/4 right-2/4 translate-x-[-50%] z-40 flex justify-between items-center border-b-[1px] border-white'>
+       <nav className='h-24 w-[80%] fixed left-2/4 right-2/4 translate-x-[-50%] z-40 flex justify-between items-center border-b-[1px] border-white bg-dore'>
         <div className='' >
             <a href="/"><img className='w-28' src="./img/logo.png" alt="logo" /></a>
         </div>

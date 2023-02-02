@@ -5,8 +5,8 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaCircle, FaChevronDown} from "react-icons/
 function Middle(props) {
   return (
     <div className={`${props.color} w-[70%] lg:w-[50%] `}>
-        <div className='flex flex-col p-0 my-14 items-center'>
-            <h1>mister james</h1>
+        <div className='flex flex-col p-0 my-10 lg:my-14 items-center'>
+            <h1>{props.titre}</h1>
             <strong className='-m-2 opacity-[80%]'>{props.strong}</strong>
         </div>
         <div className='border-l w-full text-base px-10 flex flex-col sm:items-center gap-10 lg:px-20 mx-auto opacity-[80%] md:text-xl'>
