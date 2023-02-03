@@ -10,7 +10,7 @@ function Middle(props) {
             <strong className='-m-2 opacity-[80%]'>{props.strong}</strong>
         </div>
         <div className='border-l w-full text-base px-10 flex flex-col sm:items-center gap-10 lg:px-20 mx-auto opacity-[80%] md:text-xl'>
-            <div className='flex gap-6 items-center  coordo'>
+            <div className='flex gap-6 items-center coordo'>
                 <FaMapMarkerAlt size={30}/>
                 <span>1 route de soliers, Grentheville</span>
             </div>

@@ -9,7 +9,7 @@ function BtnResa1(props) {
       className={`${props.background} text-white px-8 py-2 uppercase font-black rounded	drop-shadow-2xl tracking-widest hover:opacity-80 stroke-noir`}
       url="https://calendly.com/test-calendlyy/prise-rdv"
       rootElement={document.getElementById("root")}
-      text="Réserver"
+      text='Réserver'
       
         />
   )
