@@ -7,7 +7,7 @@ function Section1presta() {
       <img className='w-44 absolute hidden lg:block' src="./img/barber.png" alt="barber" />
       <div className='flex flex-col items-center gap-4'>
         <h2 className='text-center'>Les prestations chez Mister James</h2>
-        <span className='opacity-[80%] lg:w-[50%]'>Nous propose une variété de formules pour les besoins de tous les hommes. Les options incluent des coupes de cheveux classiques, des rasages de barbe traditionnels, ainsi qu’une formule complète.</span>
+        <span className='opacity-[80%] font-semibold leading-7 lg:w-[50%]'>Nous proposons une variétés de formules pour les besoins de tous les hommes. Les options incluent des coupes de cheveux classiques, des rasages de barbe traditionnels, ainsi qu’une formule complète.</span>
       </div>
       <div className='mt-10 flex flex-col items-center gap-2 md:flex-row justify-center md:gap-10'>
         <Card titleCard="Coupe simple" desc="(Cheveux)" price="20"/>

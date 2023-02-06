@@ -27,7 +27,7 @@ function Navbar() {
         <span></span>
         <span></span>
     </label>
-        <ul className='text-lg uppercase hidden lg:flex lg:gap-14 lg:items-center w-fit'>
+        <ul className='text-lg uppercase font-semibold leading-7  hidden lg:flex lg:gap-14 lg:items-center w-fit'>
             <li className={`hover:text-white  ${location.pathname === '/' ? 'border-b-[1px]' : ''}`}><a href="/">Home</a></li>
             <li className={`hover:text-white  ${location.pathname === '/prestations' ? 'border-b-[1px]' : ''}`}><a href="/prestations">prestations</a></li>
             <li className={`hover:text-white  ${location.pathname === '/acces-contact' ? 'border-b-[1px]' : ''}`}><a href="/acces-contact">accès/contact</a></li>
