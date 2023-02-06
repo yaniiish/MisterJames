@@ -19,11 +19,10 @@ function Middle(props) {
                     <FaPhoneAlt size={30} />
                     <span>06 xx xx xx xx</span>
                  </div>
-                <div className='flex gap-6 items-center' >
-                    
+                <div className='flex gap-6 items-center' >      
                     <FaCircle size={20} color='green'/>
-                   <span className='whitespace-nowrap block	'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
-                   <a href='/acces-contact' className='self-end -ml-[58px]'><FaChevronDown /></a>
+                   <span className='whitespace-nowrap block'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
+                   <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
                 </div>
             </div>
         </div>

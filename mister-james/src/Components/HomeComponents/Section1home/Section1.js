@@ -15,7 +15,7 @@ Notre équipe expérimentée est là pour vous conseiller et vous aider à obten
 Nous proposons également des services de rasage traditionnel à la lame pour ceux qui recherchent une expérience de barbier authentique. <br/>
 Pour bénéficier d'une expérience de coiffure et de rasage de qualité supérieure, n'hésitez pas à prendre rendez-vous chez "Coupe et Barbier" à Grenteville près de Caen.</span>
             <div>
-                <BtnResa1 background='bg-noir' className='w-8 p-8'/>
+                <BtnResa1 background='bg-noir'/>
             </div>
         </div>
         <div className='hidden lg:flex lg:justify-start  lg:mr-32'>
