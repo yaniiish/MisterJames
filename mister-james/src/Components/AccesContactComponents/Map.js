@@ -7,14 +7,14 @@ function Map() {
 
   return (
     <div className='relative z-0'>
-            <MapContainer center={position} zoom={14} scrollWheelZoom={true}>
+            <MapContainer center={position} zoom={14} scrollWheelZoom={false}>
             <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright"></a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={position}>
-            <Popup>
-                MISTER JAMES <br /> 2 route de Soliers <br /> Grentheville
+            <Popup minWidth={120} interactive={true}>
+                MISTER JAMES <br /> 2 route de Soliers, <br /> Grentheville
             </Popup>
             </Marker>
         </MapContainer>

@@ -3,7 +3,7 @@ import React from 'react'
 function Form() {
   return (
     <form className='text-center mt-10'>
-        <h2>Ecris-moi</h2>
+        <h2 className='mb-10'>Ecris-moi</h2>
         <div className='global flex flex-col gap-8'>
             <div className='flex flex-col gap-8 lg:flex lg:flex-row lg:gap-4 mx-auto'>
                 <div className='flex w-fit flex-col items-center mx-auto'>
@@ -31,6 +31,7 @@ function Form() {
                 </div>
                 <textarea className='w-[300px] lg:w-[610px] bg-dore border-2 focus:outline-none border-card rounded py-2 px-3'></textarea>
             </div>
+            <button type='submit' className='bg-noir w-fit mx-auto text-white py-2 px-8 rounded'>Envoyer</button>
         </div>
     </form>
 
