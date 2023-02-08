@@ -19,7 +19,7 @@ function Navbar() {
         <div className='' >
             <a href="/"><img className='w-28' src="./img/logo.png" alt="logo" /></a>
         </div>
-    <label  class="burger" className='burger lg:hidden'
+    <label  className='burger lg:hidden'
      >
         <input id="burger" type="checkbox" onClick={() => setIsOpen(!isOpen)}/> 
         {/* permet le passage de isopen de true a false */}
