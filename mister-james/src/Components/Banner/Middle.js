@@ -3,6 +3,15 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaCircle, FaChevronDown} from "react-icons/
 
 
 function Middle(props) {
+
+    const date = new Date();
+    const hours = date.getHours();
+    const day = date.getDay();
+
+    console.log(date);
+    console.log(hours);
+    console.log(day);
+
   return (
     <div className={`${props.color} w-[70%] lg:w-[50%] `}>
         <div className='flex flex-col p-0 my-10 lg:my-14 items-center'>
@@ -17,12 +26,20 @@ function Middle(props) {
             <div className='flex flex-col gap-10 coordo lg:flex-row'>
                 <div className='flex gap-6 items-center'>
                     <FaPhoneAlt size={30} />
-                    <span>06 xx xx xx xx</span>
+                    <span className='whitespace-nowrap'>06 xx xx xx xx</span>
                  </div>
-                <div className='flex gap-6 items-center' >      
+                <div className='flex gap-6 items-center' >  
+                {day >= 1 && day <= 5 && hours >= 9 && hours < 19 ? 
+                <>
                     <FaCircle size={20} color='green'/>
-                   <span className='whitespace-nowrap block'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
-                   <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
+                    <span className='whitespace-nowrap block'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
+                    <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
+                 </> : <>
+                 <FaCircle size={20} color='red'/>
+                    <span className='whitespace-nowrap block'>Fermé actuellement</span>
+                    <a href='/acces-contact' className=' -ml-[10px]'><FaChevronDown /></a>
+                 </>
+                 }                     
                 </div>
             </div>
         </div>

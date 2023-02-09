@@ -4,7 +4,7 @@ import BtnResa1 from '../../BtnResa1'
 
 function Section1() {
   return (
-    <div id="section1" className='lg:h-[70vh] flex flex-col mt-16 lg:-mt-32 mx-auto w-[70%] gap-6 lg:flex-row-reverse lg:justify-center lg:items-center'>
+    <section id="section1" className='lg:h-[70vh] flex flex-col mt-16 lg:-mt-32 mx-auto w-[70%] gap-6 lg:flex-row-reverse lg:justify-center lg:items-center'>
         <div className='flex flex-col gap-6 text-center lg:w-[600px] max-w-none'>
             <h2 className='uppercase'>Mister James, coiffeur barbier grentheville près de caen</h2>
             <div className='lg:hidden flex justify-center lg:justify-start  lg:mr-32'>
@@ -22,7 +22,7 @@ Pour bénéficier d'une expérience de coiffure et de rasage de qualité supéri
                <img className='max-w-none w-44 h-44 lg:w-64 lg:h-64' src="./img/s1.png" alt="homme qui se fait couper" />
             </div>
         
-    </div>
+    </section>
   )
 }
 

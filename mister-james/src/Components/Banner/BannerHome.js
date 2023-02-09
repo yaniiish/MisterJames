@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa"
 function BannerHome() {
   return (
 
-    <div className='lg:h-screen relative z-0 snap-start'>
+    <header className='lg:h-screen relative z-0'>
         <div className='flex justify-end pt-28 pr-[20%]'>
-           <a href='/'><FaInstagram size={40} className='absolute'/></a>
+           <a href='https://www.instagram.com/mister_james_14/?hl=fr' target="_blank"><FaInstagram size={40} className='absolute'/></a>
         </div>
         <div className='h-fit flex justify-center w-full lg:mt-16'>
             <Middle strong='coiffeur barbier près de Caen' titre='mister james'/>
@@ -24,10 +24,7 @@ function BannerHome() {
                 <BtnResa1  background='bg-noir'/>
             </div>
         </div>
-            
-       
-        
-    </div>
+    </header>
     
   )
 }

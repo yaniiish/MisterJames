@@ -3,7 +3,7 @@ import Btnpresta from '../../Btnpresta'
 
 function Section2() {
   return (
-    <div className='lg:h-fit flex flex-col items-center mt-16 mb-16 gap-6 w-[70%] mx-auto lg:flex-row lg:gap-20 lg:mt-10'>
+    <section className='lg:h-fit flex flex-col items-center mt-16 mb-16 gap-6 w-[70%] mx-auto lg:flex-row lg:gap-20 lg:mt-10'>
         <div className='text-center flex flex-col gap-6 lg:w-[50%]'>
             <h2 className='uppercase'>nos prestations</h2>
             <span className='opacity-[80%] font-semibold leading-7'>"Mister James" vous offre un large éventail de prestations pour répondre à tous vos besoins en matière de coiffure et de rasage. <br/> Notre équipe expérimentée est là pour vous conseiller et vous aider à obtenir le look que vous désirez.<br />
@@ -21,7 +21,7 @@ Nous proposons des coupes de cheveux pour hommes, des tailles de barbe et des ra
             </a>
            </div>
         </div>
-    </div>
+    </section>
   )
 }
 

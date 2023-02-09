@@ -3,7 +3,7 @@ import Card from './Card'
 
 function Section1presta() {
   return (
-    <div className='w-[80%] mx-auto relative mt-10'>
+    <section className='w-[80%] mx-auto relative mt-10'>
       <img className='w-44 absolute hidden lg:block' src="./img/barber.png" alt="barber" />
       <div className='flex flex-col items-center gap-4'>
         <h2 className='text-center'>Les prestations chez Mister James</h2>
@@ -14,7 +14,7 @@ function Section1presta() {
         <Card titleCard="Barbe simple" desc="(Cheveux)" price="15"/>
         <Card titleCard="Coupe complète" desc="(Cheveux + barbe)" price="30"/>
       </div>
-    </div>
+    </section>
   )
 }
 
