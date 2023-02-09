@@ -36,7 +36,7 @@ function Middle(props) {
                     <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
                  </> : <>
                  <FaCircle size={20} color='red'/>
-                    <span className='whitespace-nowrap block'>Fermé actuellement</span>
+                    <span className='block'>Fermé actuellement</span>
                     <a href='/acces-contact' className=' -ml-[10px]'><FaChevronDown /></a>
                  </>
                  }                     
