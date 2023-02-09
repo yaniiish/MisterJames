@@ -21,7 +21,7 @@ function Middle(props) {
         <div className='border-l w-full text-base px-10 flex flex-col sm:items-center gap-10 lg:px-20 mx-auto opacity-[80%] md:text-xl'>
             <div className='flex gap-6 items-center coordo'>
                 <FaMapMarkerAlt size={30}/>
-                <span> route de soliers, Grentheville</span>
+                <span> 1 route de soliers, Grentheville</span>
             </div>
             <div className='flex flex-col gap-10 coordo lg:flex-row'>
                 <div className='flex gap-6 items-center'>
@@ -35,8 +35,8 @@ function Middle(props) {
                     <span className='whitespace-nowrap block'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
                     <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
                  </> : <>
-                 <FaCircle size={20} color='red'/>
-                    <span className='whitespace-nowrap block'>Fermé actuellement</span>
+                 <FaCircle size={20} color='red' />
+                    <span className=' block'>Fermé actuellement</span>
                     <a href='/acces-contact' className=' -ml-[10px]'><FaChevronDown /></a>
                  </>
                  }                     
