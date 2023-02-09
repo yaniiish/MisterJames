@@ -10,8 +10,8 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <BannerHome />
-      <Section1 />
+      <BannerHome className='' />
+      <Section1/>
       <Section2 />
       <Section3 />
       <Footer />
@@ -20,3 +20,4 @@ function HomePage() {
 }
 
 export default HomePage
+  
