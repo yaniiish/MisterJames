@@ -21,7 +21,7 @@ function Map() {
         <div className='lg:absolute lg:top-56 lg:right-[20%] bg-card w-[220px] h-[280px] rounded-lg border-2 mt-10 drop-shadow-2xl mx-auto'>
             <div className='flex items-center mt-3 ml-4 mb-4 gap-6'>
                 <FaCalendarPlus size={30}/>
-                <span className='font-lora font-bold underline text-xl'>Horraires</span>
+                <span className='font-lora font-bold underline text-xl'>Horaires</span>
             </div>
             <div className='flex flex-col'>
                 <span className='ml-2 text-lg font-bold opacity-[80%]'>Lundi : 10h - 19h </span>

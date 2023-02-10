@@ -11,7 +11,7 @@ function Section1presta() {
       </div>
       <div className='mt-10 flex flex-col items-center gap-2 md:flex-row justify-center md:gap-10'>
         <Card titleCard="Coupe simple" desc="(Cheveux)" price="20"/>
-        <Card titleCard="Barbe simple" desc="(Cheveux)" price="15"/>
+        <Card titleCard="Barbe simple"  price="15"/>
         <Card titleCard="Coupe complète" desc="(Cheveux + barbe)" price="30"/>
       </div>
     </section>

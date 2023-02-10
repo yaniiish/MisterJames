@@ -31,11 +31,15 @@ function Middle(props) {
                 <div className='flex gap-6 items-center' >  
                 {day >= 1 && day <= 5 && hours >= 9 && hours < 19 ? 
                 <>
+                <div>
                     <FaCircle size={20} color='green'/>
+                </div>
                     <span className='whitespace-nowrap block'>Ouvert aujourd'hui :<br /> de 10h à 19h </span>
                     <a href='/acces-contact' className='self-end -ml-[40px]'><FaChevronDown /></a>
                  </> : <>
-                 <FaCircle size={20} color='red'/>
+                 <div>
+                    <FaCircle size={20} color='red'/>
+                 </div>
                     <span className='block'>Fermé actuellement</span>
                     <a href='/acces-contact' className=' -ml-[10px]'><FaChevronDown /></a>
                  </>
