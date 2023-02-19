@@ -8,9 +8,6 @@ function Middle(props) {
     const hours = date.getHours();
     const day = date.getDay();
 
-    console.log(date);
-    console.log(hours);
-    console.log(day);
 
   return (
     <div className={`${props.color} w-[70%] lg:w-[50%] `}>
