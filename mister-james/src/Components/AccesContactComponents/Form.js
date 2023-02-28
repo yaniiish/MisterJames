@@ -36,7 +36,7 @@ function Form() {
                 </div>
                 <div className='flex w-fit flex-col items-center mx-auto'>
                     <div className='self-start '>
-                        <label className='underline text-lg font-semibold opacity-[80%]'>Prénom </label>
+                        <label className='underline text-lg font-semibold opacity-[80%]'>Prénom</label>
                     </div>
                     <input name="prenom"  type='text' className='w-[300px] bg-dore border-2 focus:outline-none border-card rounded py-2 px-3'></input>
                 </div>
