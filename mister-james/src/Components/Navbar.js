@@ -37,7 +37,7 @@ function Navbar() {
 
  {/* quand isOpen est true, on affiche sinon on affiche rien  */}
 {isOpen ?  <div>
-            <ul className='fixed flex justify-center item-center flex-col gap-14 items-center mx-0 z-30 h-[100vh] bg-noir text-white text-2xl uppercase w-[100%] lg:hidden'>
+            <ul className='fixed flex justify-center item-center flex-col lg:hidden gap-14 items-center mx-0 z-30 h-[100vh] bg-noir text-white text-2xl uppercase w-[100%]'>
                 <li className='hover:opacity-[60%] '><a href="/" className=''>Home</a></li>
                 <li className='hover:opacity-[60%] '><a href="/prestations">prestations</a></li>
                 <li className='hover:opacity-[60%] '><a href="/acces-contact">accès/contact</a></li>
