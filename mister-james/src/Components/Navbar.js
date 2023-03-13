@@ -15,19 +15,19 @@ function Navbar() {
 
   return (
     <>
-       <nav className={`h-24 w-[85%] fixed left-2/4 right-2/4 translate-x-[-50%] z-40 flex justify-between items-center border-b-[1px] border-white ${isOpen ? 'bg-noir' : 'bg-dore'}`}>
+       <nav className={`h-24 w-[85%] fixed left-2/4 right-2/4 translate-x-[-50%] z-40 flex justify-between items-center 
+       border-b-[1px] border-white ${isOpen ? 'bg-noir' : 'bg-dore'}`}>
         <div className='' >
             <a href="/"><img className='w-28' src="./img/logo.png" alt="logo" /></a>
         </div>
-    <label  className='burger lg:hidden'
-     >
+    <label  className='burger lg:hidden'>
         <input id="burger" type="checkbox" onClick={() => setIsOpen(!isOpen)}/> 
         {/* permet le passage de isopen de true a false */}
         <span></span>
         <span></span>
         <span></span>
     </label>
-        <ul className='text-lg uppercase font-semibold leading-7  hidden lg:flex lg:gap-14 lg:items-center w-fit'>
+        <ul className='text-lg uppercase font-semibold leading-7 hidden lg:flex lg:gap-14 lg:items-center w-fit'>
             <li className={`hover:text-white  ${location.pathname === '/' ? 'border-b-[1px]' : ''}`}><a href="/">Home</a></li>
             <li className={`hover:text-white  ${location.pathname === '/prestations' ? 'border-b-[1px]' : ''}`}><a href="/prestations">prestations</a></li>
             <li className={`hover:text-white  ${location.pathname === '/acces-contact' ? 'border-b-[1px]' : ''}`}><a href="/acces-contact">accès/contact</a></li>
@@ -37,7 +37,8 @@ function Navbar() {
 
  {/* quand isOpen est true, on affiche sinon on affiche rien  */}
 {isOpen ?  <div>
-            <ul className='fixed flex justify-center item-center flex-col lg:hidden gap-14 items-center mx-0 z-30 h-[100vh] bg-noir text-white text-2xl uppercase w-[100%]'>
+            <ul className='fixed flex justify-center item-center flex-col lg:hidden gap-14 items-center mx-0 z-30 h-[100vh] 
+            bg-noir text-white text-2xl uppercase w-[100%]'>
                 <li className='hover:opacity-[60%] '><a href="/" className=''>Home</a></li>
                 <li className='hover:opacity-[60%] '><a href="/prestations">prestations</a></li>
                 <li className='hover:opacity-[60%] '><a href="/acces-contact">accès/contact</a></li>
