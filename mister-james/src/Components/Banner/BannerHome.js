@@ -8,7 +8,7 @@ function BannerHome() {
 
     <header className='lg:h-screen relative z-0'>
         <div className='flex justify-end pt-28 pr-[20%]'>
-           <a href='https://www.instagram.com/mister_james_14/?hl=fr' target="_blank"><FaInstagram size={40} className='absolute'/></a>
+           <a href='https://www.instagram.com/mister_james_14/?hl=fr' target="_blank"  rel="noreferrer"><FaInstagram size={40} className='absolute'/></a>
         </div>
         <div className='h-fit flex justify-center w-full lg:mt-16'>
             <Middle strong='coiffeur barbier près de Caen' titre='mister james'/>

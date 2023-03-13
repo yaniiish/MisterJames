@@ -1,5 +1,4 @@
 import React from 'react'
-import Middle from './Banner/Middle'
 import { FaInstagram, FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa"
 
 function Footer() {

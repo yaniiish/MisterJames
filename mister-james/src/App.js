@@ -2,8 +2,7 @@ import './App.css';
 import AccesContactPage from './Page/AccesContactPage';
 import HomePage from './Page/HomePage';
 import PrestationsPage from './Page/PrestationsPage';
-import Navbar from './Components/Navbar';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {  
   return (
