@@ -27,7 +27,7 @@ function Middle(props) {
                  </div>
                 <div className='flex gap-6 items-center' >  
                 {day >= 1 && day <= 5 && hours >= 9 && hours < 19 ? 
-                <>
+                <> 
                 <div>
                     <FaCircle size={20} color='green'/>
                 </div>
